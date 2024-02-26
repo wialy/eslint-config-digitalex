@@ -1,6 +1,5 @@
 module.exports = {
 	plugins: [
-		'eslint-plugin-sort-keys-fix',
 		'typescript-sort-keys',
 		'simple-import-sort',
 		'sort-destructure-keys',
