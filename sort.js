@@ -1,9 +1,5 @@
 module.exports = {
-	plugins: [
-		'typescript-sort-keys',
-		'simple-import-sort',
-		'sort-destructure-keys',
-	],
+	plugins: ['sort-keys-fix', 'simple-import-sort', 'sort-destructure-keys'],
 	rules: {
 		'simple-import-sort/exports': 'error',
 
