@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "Opinionated ESLint Configuration for Typescript projects with several useful plugins",
 	"main": "index.js",
+	"private": false,
 	"scripts": {
 		"format": "prettier . --write",
 		"prepare": "husky"
