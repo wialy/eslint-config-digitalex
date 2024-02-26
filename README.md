@@ -1,6 +1,6 @@
 # @digitalex/eslint-config
 
-This package provides a set of ESLint configurations tailored for use in DigitalEx projects. The rules are opinionated and mostly auto-fixable.
+This package provides a set of ESLint configurations tailored for use in [DigitalEx](https://digitalex.me) projects. The rules are opinionated and mostly auto-fixable.
 
 ## Installation
 
