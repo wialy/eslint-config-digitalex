@@ -16,9 +16,7 @@ module.exports = {
 		// https://eslint.org/docs/latest/rules/
 		'sort-imports': 'off',
 
-		// https://github.com/infctr/eslint-plugin-typescript-sort-keys
-		'typescript-sort-keys/interface': 'error',
-
-		'typescript-sort-keys/string-enum': 'error',
+		// https://github.com/leo-buneev/eslint-plugin-sort-keys-fix
+		'sort-keys-fix/sort-keys-fix': 'error',
 	},
 };
