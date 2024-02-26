@@ -4,10 +4,8 @@
 	"description": "Opinionated ESLint Configuration for Typescript projects with several useful plugins",
 	"main": "index.js",
 	"scripts": {
-		"postinstall": "husky",
-		"prepack": "pinst --disable",
-		"postpack": "pinst --enable",
-		"format": "prettier . --write"
+		"format": "prettier . --write",
+		"prepare": "husky"
 	},
 	"repository": {
 		"type": "git",
@@ -45,7 +43,7 @@
 	},
 	"devDependencies": {
 		"husky": "^9.0.11",
-		"pint": "^0.2.1",
+		"pinst": "^3.0.0",
 		"prettier": "^3.2.5"
 	}
 }
